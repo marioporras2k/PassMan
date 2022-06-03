@@ -55,20 +55,20 @@ public class LoginView extends JFrame implements ActionListener  {
 		panel_1.setBounds(203, 64, 292, 284);
 		panel.add(panel_1);
 		
-		JLabel lblEmail = new JLabel("Enter email:");
+		JLabel lblEmail = new JLabel("Introducir correo:");
 		lblEmail.setHorizontalAlignment(SwingConstants.CENTER);
 		lblEmail.setForeground(Color.WHITE);
 		lblEmail.setFont(new Font("Yu Gothic UI", Font.BOLD, 18));
 		lblEmail.setBackground(Color.WHITE);
-		lblEmail.setBounds(85, 29, 135, 25);
+		lblEmail.setBounds(73, 29, 146, 25);
 		panel_1.add(lblEmail);
 		
-		JLabel lblPass = new JLabel("Enter password:");
+		JLabel lblPass = new JLabel("Introducir contrase\u00F1a:");
 		lblPass.setHorizontalAlignment(SwingConstants.CENTER);
 		lblPass.setForeground(Color.WHITE);
 		lblPass.setFont(new Font("Yu Gothic UI", Font.BOLD, 18));
 		lblPass.setBackground(Color.WHITE);
-		lblPass.setBounds(85, 117, 136, 25);
+		lblPass.setBounds(54, 117, 183, 25);
 		panel_1.add(lblPass);
 		
 		JButton btnRegistrar = new JButton("");

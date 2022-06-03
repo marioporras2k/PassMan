@@ -74,20 +74,20 @@ public class RegisterView extends JFrame implements ActionListener  {
 		panel_1.setBounds(161, 0, 398, 399);
 		panel.add(panel_1);
 		
-		JLabel lblEmail = new JLabel("Enter email:");
+		JLabel lblEmail = new JLabel("Introducir correo:");
 		lblEmail.setHorizontalAlignment(SwingConstants.CENTER);
 		lblEmail.setForeground(Color.WHITE);
 		lblEmail.setFont(new Font("Yu Gothic UI", Font.BOLD, 18));
 		lblEmail.setBackground(Color.WHITE);
-		lblEmail.setBounds(131, 32, 135, 25);
+		lblEmail.setBounds(116, 32, 165, 25);
 		panel_1.add(lblEmail);
 		
-		JLabel lblPass = new JLabel("Enter master password:");
+		JLabel lblPass = new JLabel("Introducir contrase\u00F1a maestra:");
 		lblPass.setHorizontalAlignment(SwingConstants.CENTER);
 		lblPass.setForeground(Color.WHITE);
 		lblPass.setFont(new Font("Yu Gothic UI", Font.BOLD, 18));
 		lblPass.setBackground(Color.WHITE);
-		lblPass.setBounds(94, 187, 210, 25);
+		lblPass.setBounds(72, 187, 254, 25);
 		panel_1.add(lblPass);
 		
 		JButton btnRegistrar = new JButton("");
@@ -153,12 +153,12 @@ public class RegisterView extends JFrame implements ActionListener  {
 		progressBar.setStringPainted(true);
 		panel_1.add(progressBar);
 		
-		JLabel lblUser = new JLabel("Enter username:");
+		JLabel lblUser = new JLabel("Introducir usuario:");
 		lblUser.setHorizontalAlignment(SwingConstants.CENTER);
 		lblUser.setForeground(Color.WHITE);
 		lblUser.setFont(new Font("Yu Gothic UI", Font.BOLD, 18));
 		lblUser.setBackground(Color.WHITE);
-		lblUser.setBounds(131, 104, 135, 25);
+		lblUser.setBounds(116, 104, 165, 25);
 		panel_1.add(lblUser);
 		
 		txtUsername = new JTextField();
@@ -168,12 +168,12 @@ public class RegisterView extends JFrame implements ActionListener  {
 		txtUsername.setBounds(101, 140, 195, 25);
 		panel_1.add(txtUsername);
 		
-		JLabel lblPass_1 = new JLabel("Repeat master password:");
+		JLabel lblPass_1 = new JLabel("Repetir contrase\u00F1a maestra:");
 		lblPass_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblPass_1.setForeground(new Color(204, 204, 204));
 		lblPass_1.setFont(new Font("Yu Gothic UI", Font.BOLD, 18));
 		lblPass_1.setBackground(Color.WHITE);
-		lblPass_1.setBounds(94, 284, 210, 25);
+		lblPass_1.setBounds(78, 284, 242, 25);
 		panel_1.add(lblPass_1);
 		
 		passField_Confirm = new JPasswordField();
